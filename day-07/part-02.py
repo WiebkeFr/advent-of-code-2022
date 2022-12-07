@@ -50,6 +50,5 @@ with open("input.txt", "r") as file:
     sizes = []
     get_size(root, sizes)
     needed_size = 30000000 - (70000000 - root.size)
-    h = list(filter(lambda x: x >= needed_size, sizes))
-    h.sort()
-    print(h[0])
+    file_size = min(list(filter(lambda x: x >= needed_size, sizes)))
+    print(file_size)

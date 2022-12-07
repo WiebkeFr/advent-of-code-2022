@@ -1,5 +1,3 @@
 # advent-of-code-2022
 
-- day-01 
-- day-02
-- day-03
+This repository contains my solutions for the [Advent-of-Code](https://adventofcode.com/) challenges of 2022.
